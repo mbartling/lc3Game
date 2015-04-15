@@ -4,8 +4,10 @@
 ; Inputs: None
 ; Outputs: None
 DRAW 
+     STR R7, R6, #0
      LEA R0, MAP
      PUTS
+     LDR R7, R6, #0
      RET
 
 ; UpdateElement(char element, x, y)
