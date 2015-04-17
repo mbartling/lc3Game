@@ -16,6 +16,7 @@
 - Move.asm : Moves a character from x0,y0 to x1,y1
 - UpdateElement : Changes Updates a position in the game map with a new character
 - UserInput : returns encoding for w,a,s,d else waits for correct input
+- Map.asm   : Allocated Memory for the game map
 
 ## Characters
 
