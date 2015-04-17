@@ -5,7 +5,7 @@ LDR R6, R6, #0
 
 ;Main(){
   LEA R5, DRAW
-  LDR R5, R5, #0 ;Load pointer to Rand()
+  LDR R5, R5, #0 ;Load pointer to Draw()
   LEA R4, UPDATE_ELEMENT
   LDR R4, R4, #0 ;Load pointer to UpdateElement()
   LEA R3, MOVE
