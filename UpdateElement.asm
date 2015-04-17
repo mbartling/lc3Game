@@ -54,7 +54,7 @@ MULT	ADD R3, R3, R1
   LDR R3, R6, #-3
 
   ; Move stack
-  ADD R6, R6, #2  
+;  ADD R6, R6, #2  
 
   RET
 

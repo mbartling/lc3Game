@@ -1,4 +1,4 @@
-.ORIG x3870
+.ORIG x3900
 ; char UserInput(void);
 ; Inputs: None
 ; Outputs: 0 if user inputs 'a'
@@ -45,7 +45,7 @@ GET_CHAR
 ;---------------------------------------
 GOT_w
   AND R0, R0, #0 ;1 For north
-  ADD R0, R0, #1
+  ADD R0, R0, #-1
   BRnzp Done
 
 GOT_a ;0 for west
@@ -55,12 +55,12 @@ GOT_a ;0 for west
 
 GOT_s ;3 for south
   AND R0, R0, #0
-  ADD R0, R0, #3
+  ADD R0, R0, #-3
   BRnzp Done
 
 GOT_d ;2 for east
   AND R0, R0, #0
-  ADD R0, R0, #2
+  ADD R0, R0, #-2
   BRnzp Done
 
 Done 

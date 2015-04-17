@@ -75,7 +75,7 @@ GO_SHARED
 	LD R3, SAVE_R3
 	LD R7, SAVE_R7
 	; pop, pop
-	ADD R6, R6, #2
+	;ADD R6, R6, #2
 	RET
 
 UpdateElement_ptr .FILL x3730
